@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+* {
+    font-family: sans-serif,serif,"メイリオ";
+}
+
+h1{
+    background-color: rgb(246, 49, 190);
+}
+
+ul{
+    list-style: none;
+    list-style: disc;
+    list-style: circle;
+    list-style: georgian;
+}
+
+th{
+    border: 1px solid black;
+    background-color: rgb(229, 144, 240);
+}
+
+a:link{
+    color: rgb(7, 120, 241);
+}
+
+a:hover{
+    font-size: 2em;
+}
+
+
+p::first-letter{
+    font-size:2em;
+}
+
+
+th{
+    border: 1px solid black;
+    background-color: rgb(226, 187, 245);
+}
+
+a:link{
+    color: rgb(254, 4, 221);
+}
+
+a:hover{
+    font-size: 2em;
+}
+
+
+p::first-letter{
+    font-size:2em;
+}
+
+
+main{
+    background-color: rgb(240, 220, 243);
+    grid-area: main-A;
+}
