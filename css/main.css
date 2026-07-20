@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.gnav > ul {
+    list-style: none;
+}
+
+.gnav > ul > li {
+    display: inline;
+    margin-right: 8px;
+    padding: 8px 4px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background: linear-gradient(#FFF, #999);
+}
+
+ul {
+    list-style: disc;
+}
+
+header {
+    background-color: rgb(247, 181, 75);
+    grid-area: header-A;
+}
+
+footer {
+    background-color: #aaa;
+    grid-area: footer-A;
+}
+
+th {
+    border: 1px solid black;
+    background-color: rgb(229, 174, 238);
+}
+
+a:link {
+    color: rgb(51, 25, 247);
+}
+
+a:hover {
+    font-size: 2em;
+}
+
+p::first-letter {
+    font-size: 2em;
+}
